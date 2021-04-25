@@ -70,7 +70,6 @@ class MorseCode(QWidget):
         self.btn = QPushButton('Convert', self)
         self.confirmation = QLabel("")
 
-        # connect button to function on_click
         self.btn.clicked.connect(self.onClick)
 
         grid = QGridLayout(self)
